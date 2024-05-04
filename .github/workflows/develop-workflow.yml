@@ -1,4 +1,4 @@
-name: Node.js CI
+name: Develop Workflow
 
 on:
   push:
@@ -9,7 +9,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
         node-version: [18.x]
