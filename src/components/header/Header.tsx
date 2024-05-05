@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <nav
-      className="flex-no-wrap relative flex w-full h-20 items-center justify-evenly bg-zinc-50 py-2 shadow-dark-mild dark:bg-yellow-950 lg:flex-wrap lg:justify-start lg:py-4">
+      className="flex-no-wrap relative flex w-full h-20 items-center justify-evenly bg-yellow-950 py-2 shadow-dark-mild dark:bg-yellow-950 lg:flex-wrap lg:justify-start lg:py-4">
       <div className="flex w-full flex-wrap items-center justify-evenly px-3 pl-8 pr-8">
         {/* <!-- Hamburger button for mobile view --> */}
         <button
